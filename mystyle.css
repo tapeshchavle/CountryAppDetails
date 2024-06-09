@@ -1,0 +1,128 @@
+body {
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 201, 100),
+    rgb(160, 215, 224)
+  );
+  height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  border: 1px solid black;
+  height: 30px;
+  width: 150px;
+  border-radius: 40%;
+}
+button:hover {
+  box-shadow: 4px 6px 15px;
+}
+.outer-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+select {
+  width: 200px;
+  height: 25px;
+}
+.container {
+  border-radius: 10%;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 180px;
+}
+.image {
+  height: 35%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 3px solid black;
+  background-color: rgb(238, 219, 219);
+}
+.reg {
+  position: absolute;
+  top: 50px;
+  font-size: 15px;
+}
+.content {
+  position: absolute;
+  height: 65%;
+  width: 100%;
+  font-size: large;
+  text-align: center;
+}
+.capital {
+  height: 40%;
+  background-color: rgb(238, 219, 219);
+  z-index: 88;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  box-shadow: 2px 4px 6px black;
+}
+.capital:hover {
+  box-shadow: 2px 6px 12px black;
+  transition-duration: 0.3s;
+}
+.details {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  background-color: rgb(238, 219, 219);
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  box-shadow: 2px 4px 6px black;
+}
+.details:hover {
+  box-shadow: 2px 6px 12px black;
+  transition-duration: 0.3s;
+}
+.p1 {
+  margin-top: 39px;
+  font-size: large;
+  font-weight: 700;
+}
+span {
+  position: absolute;
+  bottom: 0;
+}
+img {
+  border-radius: 10px;
+}
+img:hover {
+  box-shadow: 2px 6px 12px black;
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.7s;
+}
+.cou {
+  position: absolute;
+  top: -10px;
+  font-size: larger;
+  font-weight: 700;
+}
+.details {
+  font-size: large;
+  font-weight: 600;
+}
+h3 {
+  display: block;
+
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 180px) {
+  .container {
+    margin-top: 50px;
+  }
+}
