@@ -22,7 +22,7 @@ Currencies<br>
 <img src="./image/country.png"></img>
 
  <h3>Dropdown</h3>
- <img src="./image/dropdown.png.png"></img>
+ <img src="./image/dropdown.png"></img>
 
 # Technologies Used
 
